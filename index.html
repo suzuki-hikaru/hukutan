@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport"
+        content="width=device-width">
+
+        <style>
+        body{
+            font-size: 16px;
+            background-color:#fff9de;
+            margin: 0px;
+            padding: 0px;
+        }
+        h1{
+            font-size: 2em;
+            /*font-size: 18px;*/
+            color: #6b3008;
+            text-align: center;
+        }
+        h2{
+            font-size: 1.5em;
+        }
+        h3{
+            font-size: 1.2em;
+            border-left:18px solid #6b3008;
+            background-color: #fee;
+            padding-left: 6px;
+        }
+
+/*articleの編集*/
+article{
+    padding:32px 16px;
+}
+section{
+    margin:48px 0;
+}
+
+/*idを入れていきます*/
+#profile{
+    background-color: #6b3008;
+    color:#fff;
+}
+
+/*クラスの設定をしていきます*/
+/*コピーライトの部分*/
+.copyright{
+    border-top: solid 3px #000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.pagetop{
+    text-align: right;
+}
+.perfomer{
+    margin:0 0 24px;
+    overflow:hidden; 
+}
+.perfomer img{
+    float:left;
+    margin:0 12px 0 0;
+}
+.perfomer h4{
+    margin:0 0 0.5em;
+}
+.perfomer p{
+    margin: 0;
+}
+
+/*表*/
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+td,th{
+    border:1px solid #999;
+    padding:16px; 
+}
+th{
+    background-color: #62d5e8;
+}
+/*リスト*/
+ol li{
+    list-style-type:upper-roman; 
+}
+.navigation ul{
+    background-color: #000;
+    padding:4px;
+    margin: 0px;
+    text-align: center;
+}
+
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 15px;
+    /*border:1px solid red;*/
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation ul li a:hover{
+    color: #62d5e8;    
+    text-decoration:underline;
+}
+.mainvisual{
+    background-color: #62d5e8;
+}
+.mainvisual img{
+display:block;
+margin:0auto;
+max-width: 100%;
+height:auto;
+}
+        </style>
+
+    
+    </head>
+
+
+    <!--脚注　html上に出てこない文章　-->
+    <body>
+        <header>
+            <h1>どんぐり合唱団1</h1>
+
+            <nav>
+                <div class="navigation">
+                <ul>
+                    <li><a href="#profile">プロフィール</a></li>
+                    <li><a href="#concert">森の音楽会</a></li>
+                    <li><a href="#">演目</li>
+                </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <!--<div class＝mainvisual>
+<img
+
+>-->
+            <article id="profile">
+                <h2>プロフィール</h2>
+
+                <p>どんぐり合唱団のホームページへようこそ。ぼくの名前はけんじです。ぼくはリコーダーが大好きなので、毎日森で練習していたら、いつのまにか鳥さんたちがリコーダーにあわせて一緒に歌ってくれるようになりました。毎日練習してすごく上達したので、僕たちの合唱をぜひみんなに聞いてほしいと思い、どんぐり合唱団をけっせいしました。</p>
+            </article>
+
+            <article id="concert">
+                <h2>森の音楽会</h2>
+
+                <p>どんぐり合唱団は、毎月1回、森の音楽会をひらいています。会場は森の中です。青空の下、自然を感じながら合唱を楽しんでもらえたらうれしいです。ぜひ聞きにきてください。</p>
+
+                <section>
+                    <h3>イベント概要</h3>
+
+                    <table>
+                        <tr>
+                            <th>日付</th>
+                            <td>2016年9月11日（日）雨天中止</td>
+                        </tr>
+                        <tr>
+                            <th>時間</th>
+                            <td>14:00〜16:00</td>
+                        </tr>
+                        <tr>
+                            <th>会費</th>
+                            <td>無料</td>
+                        </tr>
+                        <tr>
+                            <th>場所</th>
+                            <td>円山原始林　登山道入り口前ひろば</td>
+                        </tr>
+                        <tr>
+                            <th>アクセス</th>
+                            <td>地下鉄東西線　円山公園駅から徒歩15分 Googleマップで見る</td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section class="perfomer">
+                    <h3>出演者</h3>
+
+                    <section>
+                        <h4>雪のようせい　シマエナガさん</h4>
+                        <p>なき声：チーチー、ジュリリ<br>
+                        ひとこと：将来のゆめは仲間と一緒にアイドルグループをつくることです。みんな応援してね。</p>
+                    </section>
+
+                    <section>
+                        <h4>森のうたひめ ウソさん</h4>
+                        <p>なき声：ヒー　フィー<br>
+                        ひとこと：ウソって言っても正直ものよ。口笛みたいな悲しげな声をしてるって言われるわ。</p>
+                    </section>
+
+                    <section>
+                        <h4>孤高のドラマー　クマゲラさん</h4>
+                        <p>なき声：キョロローン<br>
+                        ひとこと：天然記念物のオレが華麗なパーカッションで音楽会を盛り上げるぜ！</p>
+                    </section>
+
+                    <section>
+                        <h4>野鳥使いの弟子　けんじ</h4>
+                        <p>パート：リコーダー<br>
+                        ひとこと：たくさんの人に鳥さんたちの歌声をきいてもらえたらうれしいです。</p>
+                    </section>
+                </section>
+
+                <section>
+                    <h3>演目</h3>
+
+                    <ol>
+                        <li>エゾリスのパレード（ミヒャエル・クララ作曲）</li>
+                        <li>野鳥使いの弟子（カバコフ・ルニャール作曲）</li>
+                        <li>ハミングバードのためのアダージョ（ノビル・スダジイ1世作曲）</li>
+                        <li>となりのシマフクロウ（ジギタリス・マリア・アルル作曲）</li>
+                        <li>ヤ調のメヌエット（ヨハンネス・マンテマ作曲）</li>
+                        <li>木漏れ日の舞曲（ベネディクト・ダ・マキーニャー作曲）</li>
+                        <li>どんぐりころころ（青木存義作詞・梁田貞作曲）</li>
+                    </ol>
+                </section>
+            </article>
+        </main>
+        
+        <footer>
+            <p class="pagetop"><a href="#">ページの先頭へ</p>
+            <p class="copyright"><small>&copy; Copyright 2016 どんぐり合唱団</small></p>
+        </footer>
+    </body>
+</html>

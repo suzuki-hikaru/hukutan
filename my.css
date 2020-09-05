@@ -1,0 +1,212 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+      font-family :Quicksand, "HG正楷書体-PRO";
+    color: #888888;
+}
+
+#all {
+/*    height: 300px; */
+    width: 70%;
+    margin: 15px auto;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+#logo{
+  margin-left: 5px;
+  color: #000000;
+  font-family :Quicksand, "HG正楷書体-PRO";
+  font-size: 30px;
+}
+#black{
+  color: #000000;
+}
+
+
+.contents img{
+  padding: 10px;
+}
+
+.contents h2{
+  text-align: center;
+}
+
+.navigation ul{
+    padding:4px;
+    margin: 0px;
+    text-align: center;
+}
+
+.navigation ul li{
+    list-style: none;
+    color: #000000;
+    font-family :Quicksand, "HG正楷書体-PRO";
+    display: inline-block;
+    margin:0 30px;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation ul li a:hover{
+    color: #62d5e8;
+    text-decoration:underline;
+}
+
+
+.example {
+  position: relative;
+  font-family :Quicksand, "HG正楷書体-PRO";
+
+  }
+
+.example p {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0.5em;
+  color: #AAAAAA;/*文字はhaiiroに*/
+font-weight: bold; /*太字に*/
+font-size: 1.5em;/*サイズ2倍*/
+  padding: 0.5em;/*文字周りの余白*/
+  text-align: center;
+  border-radius: 0.5em;/*角丸*/
+}
+  /*文字の装飾は省略*/
+
+  .example a {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0.5em;
+    color: #AAAAAA;/*文字はhaiiroに*/
+  font-weight: bold; /*太字に*/
+  font-size: 1.5em;/*サイズ2倍*/
+    padding: 0.5em;/*文字周りの余白*/
+    border-radius: 0.5em;/*角丸*/
+  }
+
+
+#btn-square {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+#picture{
+  float:right;
+  margin-right:500px;
+  margin-bottom:50px;
+  width:100px;
+  height:100px;
+}
+
+#table{
+  float:right;
+  margin-right:10px;
+  margin-bottom:10px;
+  width:100px;
+}
+#tt{
+  float:right;
+  margin-right:10px;
+  margin-bottom:10px;
+  width:300px;
+}
+
+#h {
+  color: #364e96;/*文字色*/
+  border: solid 3px #364e96;/*線色*/
+  padding: 0.5em;/*文字周りの余白*/
+  border-radius: 0.5em;/*角丸*/
+}
+
+
+#btn-circle-stitch {
+  display: inline-block;
+  text-decoration: none;
+  background: #87befd;
+  color: #FFF;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0px 0px 0px 5px #87befd;
+  border: dashed 1px #FFF;
+  transition: .4s;
+}
+
+#btn-circle-stitch2 {
+  display: inline-block;
+  text-decoration: none;
+
+  background: ##A9A9A9;
+  color: #FFF;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px 5px ##A9A9A9;
+  border: dashed 1px #FFF;
+  transition: .4s;
+}
+
+li{
+  margin: 10px;
+}
+
+#btn-circle-stitch:hover {
+  background: #668ad8;
+  box-shadow: 0px 0px 0px 5px #668ad8;
+}
+
+#ribbon {
+  display: inline-block;
+  position: relative;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  padding: 7px 0;
+  font-size: 18px;/*文字サイズ*/
+  background: #7f9dfb;/*背景色*/
+  color: #FFF;/*文字色*/
+  box-sizing: border-box;
+}
+
+#boder{
+  padding-bottom: .5em;
+  border-bottom: 1px solid #ccc;
+  padding: 4px;
+}
+
+ #aa{
+  background: #dfefff;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+}
